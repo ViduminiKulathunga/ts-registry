@@ -1,8 +1,11 @@
-export default function Header(){
+import { Link } from "react-router-dom";
+import SearchInput from "./SearchInput";
 
-    return(
-        <div>
-            Header
-        </div>
-    )
+export default function Header() {
+  return (
+    <div>
+      <Link to="/">NPM Registry</Link>
+      <SearchInput />
+    </div>
+  );
 }
