@@ -28,7 +28,7 @@ export default function PackageListItems({ pack }: PackageListItemsProps) {
       </div>
       <div className="mr-6">
         <Link
-          to={`packages/${pack.name}`}
+          to={`/packages/${pack.name}`}
           className="py-2 px-3 rounded bg-black text-white text-lg"
         >
           View
